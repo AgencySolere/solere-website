@@ -11,9 +11,9 @@ import leaderIcon from './assets/leader.svg';
 
 function Home() {
   return (
-    <div style={{ maxWidth: 1100, margin: '0 auto', padding: '2rem 0' }}>
+    <div style={{ maxWidth: 1100, margin: '0 auto', padding: '2rem 0', background: '#fff' }}>
       {/* Hero Section */}
-      <section style={{ textAlign: 'center', marginBottom: 48 }}>
+      <section style={{ textAlign: 'center', marginBottom: 48, background: '#fff' }}>
         <h1 style={{ fontSize: 48, fontWeight: 800, background: 'linear-gradient(90deg, #1de9b6 40%, #0d3c47 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', marginBottom: 16 }}>
           Global Talent for AI, Microchip, GPU & ASIC Teams
         </h1>
@@ -21,14 +21,14 @@ function Home() {
           We connect world-class engineers and deep tech talent with the companies building the future.
         </p>
         <div style={{ display: 'flex', justifyContent: 'center', gap: 24 }}>
-          <a href="/contact" style={{ background: 'linear-gradient(90deg, #1de9b6 60%, #0d3c47 100%)', color: '#fff', padding: '14px 36px', borderRadius: 32, fontWeight: 700, fontSize: 18, textDecoration: 'none', boxShadow: '0 4px 24px rgba(29,233,182,0.15)', transition: 'box-shadow 0.2s' }}>For Clients</a>
+          <a href="/contact" style={{ background: '#1de9b6', color: '#fff', padding: '14px 36px', borderRadius: 32, fontWeight: 700, fontSize: 18, textDecoration: 'none', boxShadow: '0 4px 24px rgba(29,233,182,0.15)', transition: 'box-shadow 0.2s' }}>For Clients</a>
           <a href="/contact" style={{ background: '#fff', color: '#0d3c47', border: '2px solid #1de9b6', padding: '14px 36px', borderRadius: 32, fontWeight: 700, fontSize: 18, textDecoration: 'none', transition: 'background 0.2s' }}>For Candidates</a>
         </div>
       </section>
       {/* What We Do */}
-      <section style={{ marginBottom: 48 }}>
+      <section style={{ marginBottom: 48, background: '#fff' }}>
         <h2 style={{ fontSize: 32, fontWeight: 700, color: '#0d3c47', marginBottom: 16 }}>What We Do</h2>
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 32, justifyContent: 'center' }}>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 32, justifyContent: 'center', background: '#fff' }}>
           <div style={{ flex: '1 1 240px', background: '#fff', borderRadius: 16, padding: 32, boxShadow: '0 2px 16px rgba(29,233,182,0.07)', minWidth: 240, maxWidth: 320, textAlign: 'center' }}>
             <div style={{ fontWeight: 700, fontSize: 20, marginBottom: 8 }}>AI & Machine Learning</div>
             <div style={{ color: '#444' }}>LLMs, computer vision, NLP, data science, and more.</div>
@@ -48,48 +48,48 @@ function Home() {
         </div>
       </section>
       {/* Expertise Section */}
-      <section style={{ marginBottom: 48 }}>
+      <section style={{ marginBottom: 48, background: '#fff' }}>
         <h2 style={{ fontSize: 32, fontWeight: 700, color: '#0d3c47', marginBottom: 16 }}>Our Expertise</h2>
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 32, justifyContent: 'center' }}>
-          <div style={{ flex: '1 1 200px', background: '#f8fffd', borderRadius: 16, padding: 24, border: '1.5px solid #e0f7f4', boxShadow: '0 2px 8px rgba(13,60,71,0.04)', textAlign: 'center', minWidth: 180 }}>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 32, justifyContent: 'center', background: '#fff' }}>
+          <div style={{ flex: '1 1 200px', background: '#fff', borderRadius: 16, padding: 24, border: '1.5px solid #e0f7f4', boxShadow: '0 2px 8px rgba(13,60,71,0.04)', textAlign: 'center', minWidth: 180 }}>
             <div style={{ fontWeight: 600, marginTop: 8 }}>AI/ML Engineers</div>
             <div style={{ color: '#666', fontSize: 15 }}>Experts in deep learning, NLP, and data science.</div>
           </div>
-          <div style={{ flex: '1 1 200px', background: '#f8fffd', borderRadius: 16, padding: 24, border: '1.5px solid #e0f7f4', boxShadow: '0 2px 8px rgba(13,60,71,0.04)', textAlign: 'center', minWidth: 180 }}>
+          <div style={{ flex: '1 1 200px', background: '#fff', borderRadius: 16, padding: 24, border: '1.5px solid #e0f7f4', boxShadow: '0 2px 8px rgba(13,60,71,0.04)', textAlign: 'center', minWidth: 180 }}>
             <div style={{ fontWeight: 600, marginTop: 8 }}>Microchip & ASIC</div>
             <div style={{ color: '#666', fontSize: 15 }}>Design, verification, and layout specialists.</div>
           </div>
-          <div style={{ flex: '1 1 200px', background: '#f8fffd', borderRadius: 16, padding: 24, border: '1.5px solid #e0f7f4', boxShadow: '0 2px 8px rgba(13,60,71,0.04)', textAlign: 'center', minWidth: 180 }}>
+          <div style={{ flex: '1 1 200px', background: '#fff', borderRadius: 16, padding: 24, border: '1.5px solid #e0f7f4', boxShadow: '0 2px 8px rgba(13,60,71,0.04)', textAlign: 'center', minWidth: 180 }}>
             <div style={{ fontWeight: 600, marginTop: 8 }}>GPU & HPC</div>
             <div style={{ color: '#666', fontSize: 15 }}>High-performance computing and hardware acceleration.</div>
           </div>
-          <div style={{ flex: '1 1 200px', background: '#f8fffd', borderRadius: 16, padding: 24, border: '1.5px solid #e0f7f4', boxShadow: '0 2px 8px rgba(13,60,71,0.04)', textAlign: 'center', minWidth: 180 }}>
+          <div style={{ flex: '1 1 200px', background: '#fff', borderRadius: 16, padding: 24, border: '1.5px solid #e0f7f4', boxShadow: '0 2px 8px rgba(13,60,71,0.04)', textAlign: 'center', minWidth: 180 }}>
             <div style={{ fontWeight: 600, marginTop: 8 }}>Tech Leadership</div>
             <div style={{ color: '#666', fontSize: 15 }}>CTOs, VPs, and engineering managers for deep tech teams.</div>
           </div>
         </div>
       </section>
       {/* Call to Action */}
-      <section style={{ textAlign: 'center', marginTop: 64 }}>
+      <section style={{ textAlign: 'center', marginTop: 64, background: '#fff' }}>
         <h2 style={{ fontSize: 32, fontWeight: 700, color: '#0d3c47', marginBottom: 16 }}>Ready to Build Your Deep Tech Team?</h2>
         <p style={{ fontSize: 18, color: '#444', marginBottom: 32 }}>
           Connect with our specialists to discuss your hiring needs or career goals. Let’s shape the future together.
         </p>
-        <a href="/contact" style={{ background: 'linear-gradient(90deg, #1de9b6 60%, #0d3c47 100%)', color: '#fff', padding: '16px 48px', borderRadius: 32, fontWeight: 700, fontSize: 20, textDecoration: 'none', boxShadow: '0 4px 24px rgba(29,233,182,0.15)', transition: 'box-shadow 0.2s' }}>Contact Us</a>
+        <a href="/contact" style={{ background: '#1de9b6', color: '#fff', padding: '16px 48px', borderRadius: 32, fontWeight: 700, fontSize: 20, textDecoration: 'none', boxShadow: '0 4px 24px rgba(29,233,182,0.15)', transition: 'box-shadow 0.2s' }}>Contact Us</a>
       </section>
     </div>
   );
 }
 function About() {
   return (
-    <div style={{ maxWidth: 900, margin: '0 auto', padding: '2rem 0' }}>
-      <section style={{ marginBottom: 48 }}>
+    <div style={{ maxWidth: 900, margin: '0 auto', padding: '2rem 0', background: '#fff' }}>
+      <section style={{ marginBottom: 48, background: '#fff' }}>
         <h1 style={{ fontSize: 40, fontWeight: 800, color: '#0d3c47', marginBottom: 16 }}>About Solere</h1>
         <p style={{ fontSize: 20, color: '#333', marginBottom: 24 }}>
           Solere is a specialist recruitment partner for companies building the future in AI, microchip design, GPU, and ASIC engineering. Our mission is to connect world-class technical talent with the most innovative teams globally.
         </p>
       </section>
-      <section style={{ marginBottom: 48 }}>
+      <section style={{ marginBottom: 48, background: '#fff' }}>
         <h2 style={{ fontSize: 28, fontWeight: 700, color: '#0d3c47', marginBottom: 12 }}>Why Choose Us?</h2>
         <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
           <li style={{ marginBottom: 20, background: '#f8fffd', borderRadius: 12, padding: 20, boxShadow: '0 2px 8px rgba(29,233,182,0.07)' }}>
@@ -106,7 +106,7 @@ function About() {
           </li>
         </ul>
       </section>
-      <section style={{ marginBottom: 48 }}>
+      <section style={{ marginBottom: 48, background: '#fff' }}>
         <h2 style={{ fontSize: 28, fontWeight: 700, color: '#0d3c47', marginBottom: 12 }}>How We Work</h2>
         <ol style={{ paddingLeft: 20, color: '#333', fontSize: 18 }}>
           <li style={{ marginBottom: 12 }}><strong>Discovery:</strong> We learn your needs, culture, and goals.</li>
@@ -139,16 +139,18 @@ function Contact() {
   }
 
   return (
-    <div style={{ maxWidth: 900, margin: '0 auto', padding: '2rem 0' }}>
-      <section style={{ marginBottom: 48 }}>
+    <div style={{ maxWidth: 900, margin: '0 auto', padding: '2rem 0', background: '#fff' }}>
+      <section style={{ marginBottom: 48, background: '#fff' }}>
         <h1 style={{ fontSize: 40, fontWeight: 800, color: '#0d3c47', marginBottom: 16 }}>Contact Us</h1>
         <p style={{ fontSize: 18, color: '#333', marginBottom: 24 }}>
           Reach out to discuss your hiring needs or career opportunities in AI and deep tech.
         </p>
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 32 }}>
-          <div style={{ flex: '1 1 300px', background: '#f8fffd', borderRadius: 12, padding: 24, boxShadow: '0 2px 8px rgba(29,233,182,0.07)', minWidth: 260 }}>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 32, background: '#fff' }}>
+          <div style={{ flex: '1 1 300px', background: '#fff', borderRadius: 12, padding: 24, boxShadow: '0 2px 8px rgba(29,233,182,0.07)', minWidth: 260 }}>
             <div style={{ fontWeight: 600, marginBottom: 8 }}>Email</div>
             <div style={{ marginBottom: 16 }}><a href="mailto:hello@solere.co" style={{ color: '#0d3c47' }}>hello@solere.co</a></div>
+            <div style={{ fontWeight: 600, marginBottom: 8 }}>Phone</div>
+            <div style={{ marginBottom: 16 }}><a href="tel:+447487885456" style={{ color: '#0d3c47' }}>+44 7487 88 5456</a></div>
             <div style={{ fontWeight: 600, marginBottom: 8 }}>Locations</div>
             <div>London · San Francisco · Berlin</div>
             <div style={{ fontWeight: 600, margin: '16px 0 8px' }}>Office Hours</div>
@@ -180,7 +182,7 @@ function Contact() {
                 <div style={{ marginBottom: 16 }}>
                   <textarea name="message" value={form.message} onChange={handleChange} required placeholder="Message" rows={4} style={{ width: '100%', padding: 12, borderRadius: 6, border: '1px solid #e0f7f4', fontSize: 16 }} />
                 </div>
-                <button type="submit" style={{ width: '100%', background: 'linear-gradient(90deg, #1de9b6 60%, #0d3c47 100%)', color: '#fff', fontWeight: 700, fontSize: 18, padding: '14px 0', borderRadius: 32, border: 'none', boxShadow: '0 4px 24px rgba(29,233,182,0.10)', cursor: 'pointer' }}>
+                <button type="submit" style={{ width: '100%', background: '#1de9b6', color: '#fff', fontWeight: 700, fontSize: 18, padding: '14px 0', borderRadius: 32, border: 'none', boxShadow: '0 4px 24px rgba(29,233,182,0.10)', cursor: 'pointer' }}>
                   Send Message
                 </button>
               </form>
@@ -196,16 +198,19 @@ function Footer() {
   return (
     <footer style={{
       background: '#fff',
-      borderTop: '1.5px solid #e0f7f4',
+      borderTop: 'none', // Remove greenish border
       marginTop: 64,
       padding: '2.5rem 0 1.5rem 0',
       textAlign: 'center',
       color: '#0d3c47',
       fontSize: 16,
-      boxShadow: '0 -2px 16px rgba(13,60,71,0.04)',
+      boxShadow: 'none', // Remove shadow
     }}>
       <div style={{ marginBottom: 16 }}>
         <a href="mailto:hello@solere.co" style={{ color: '#0d3c47', textDecoration: 'none', fontWeight: 600 }}>hello@solere.co</a>
+      </div>
+      <div style={{ marginBottom: 16 }}>
+        <a href="tel:+447487885456" style={{ color: '#0d3c47', textDecoration: 'none', fontWeight: 600 }}>+44 7487 88 5456</a>
       </div>
       <div style={{ display: 'flex', justifyContent: 'center', gap: 32, marginBottom: 16 }}>
         <a href="https://www.linkedin.com/company/solere/" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block' }}>
@@ -238,11 +243,11 @@ function App() {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
-        padding: '1.5rem 3rem',
-        background: '#fff',
-        boxShadow: '0 4px 24px rgba(13,60,71,0.06)',
-        borderRadius: 18,
-        margin: '2rem auto 2.5rem',
+        padding: '1.5rem 3rem 0.5rem 3rem',
+        background: 'transparent',
+        boxShadow: 'none',
+        borderRadius: 0,
+        margin: '0 auto 2.5rem',
         maxWidth: 1200,
         position: 'relative',
         zIndex: 10
@@ -253,10 +258,10 @@ function App() {
         <nav style={{ display: 'flex', gap: 40 }}>
           <Link to="/" style={{ fontWeight: 600, fontSize: 18, color: '#0d3c47', padding: '6px 0', textDecoration: 'none', transition: 'color 0.2s' }}>Home</Link>
           <Link to="/about" style={{ fontWeight: 600, fontSize: 18, color: '#0d3c47', padding: '6px 0', textDecoration: 'none', transition: 'color 0.2s' }}>About Us</Link>
-          <Link to="/contact" style={{ fontWeight: 600, fontSize: 18, color: '#0d3c47', padding: '6px 0', textDecoration: 'none', transition: 'color 0.2s' }}>Contact</Link>
+          <Link to="/contact" style={{ fontWeight: 700, fontSize: 18, color: '#1de9b6', padding: '6px 0', textDecoration: 'none', transition: 'color 0.2s' }}>Contact</Link>
         </nav>
       </header>
-      <main style={{ padding: '2rem', background: '#f8fafd', minHeight: '80vh' }}>
+      <main style={{ padding: '2rem', background: '#fff', minHeight: '80vh' }}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

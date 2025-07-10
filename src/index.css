@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color: #22313a;
-  background-color: #f6f8fa;
+  background-color: #fff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -26,7 +26,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: #f6f8fa;
+  background: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
