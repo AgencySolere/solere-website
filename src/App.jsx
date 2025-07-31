@@ -236,7 +236,9 @@ function App() {
     <Router>
       <header className="header">
         <div style={{ display: 'flex', alignItems: 'center' }}>
-          <img src={solereLogo} alt="Solere Logo" className="logo" />
+          <Link to="/">
+            <img src={solereLogo} alt="Solere Logo" className="logo" />
+          </Link>
         </div>
         
         {/* Mobile Menu Button */}
